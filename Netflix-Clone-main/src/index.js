@@ -10,6 +10,7 @@ for (let i = 0; i < accordian.length; i++) {
       this.childNodes[1].classList.add("fa-plus");
     }
 
+    
     let content = this.nextElementSibling;
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
